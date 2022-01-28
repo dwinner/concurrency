@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationSamples", "CancellationSamples\CancellationSamples.csproj", "{21794427-0AE5-4461-8247-4E6D1E2A8C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingContinuations", "CancellingContinuations\CancellingContinuations.csproj", "{B3227D7D-A137-4250-944A-04CD99075DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingSeveral", "CancellingSeveral\CancellingSeveral.csproj", "{D1C1C9DC-9415-4643-A395-C9B1CB0446CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTask", "CancellingTask\CancellingTask.csproj", "{85886293-5C5D-4D8F-9C03-E7117730D33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingTask2", "CancellingTask2\CancellingTask2.csproj", "{5AD00187-5C39-465C-87FE-6F53631CA3E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CooperativeCancelling", "CooperativeCancelling\CooperativeCancelling.csproj", "{7F376296-E428-452D-A521-A9E8E346E46C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectIfCanceled", "DetectIfCanceled\DetectIfCanceled.csproj", "{257E6078-3B04-402A-9659-208ADBAEFAE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21794427-0AE5-4461-8247-4E6D1E2A8C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21794427-0AE5-4461-8247-4E6D1E2A8C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21794427-0AE5-4461-8247-4E6D1E2A8C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21794427-0AE5-4461-8247-4E6D1E2A8C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3227D7D-A137-4250-944A-04CD99075DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3227D7D-A137-4250-944A-04CD99075DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3227D7D-A137-4250-944A-04CD99075DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3227D7D-A137-4250-944A-04CD99075DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C1C9DC-9415-4643-A395-C9B1CB0446CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C1C9DC-9415-4643-A395-C9B1CB0446CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C1C9DC-9415-4643-A395-C9B1CB0446CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C1C9DC-9415-4643-A395-C9B1CB0446CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85886293-5C5D-4D8F-9C03-E7117730D33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85886293-5C5D-4D8F-9C03-E7117730D33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85886293-5C5D-4D8F-9C03-E7117730D33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85886293-5C5D-4D8F-9C03-E7117730D33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD00187-5C39-465C-87FE-6F53631CA3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD00187-5C39-465C-87FE-6F53631CA3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD00187-5C39-465C-87FE-6F53631CA3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD00187-5C39-465C-87FE-6F53631CA3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F376296-E428-452D-A521-A9E8E346E46C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F376296-E428-452D-A521-A9E8E346E46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F376296-E428-452D-A521-A9E8E346E46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F376296-E428-452D-A521-A9E8E346E46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257E6078-3B04-402A-9659-208ADBAEFAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257E6078-3B04-402A-9659-208ADBAEFAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257E6078-3B04-402A-9659-208ADBAEFAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257E6078-3B04-402A-9659-208ADBAEFAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
